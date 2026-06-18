@@ -20,7 +20,7 @@ typedef struct {
 
 extern Persona persona[POBMAX];
 
-Persona* persona_new();
+Persona* persona_new(int edad_min,int edad_max);
 
 int hijo_new(Persona a,Persona b);
 
